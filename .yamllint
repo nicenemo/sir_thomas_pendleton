@@ -1,0 +1,30 @@
+---
+# YAML linting configuration for this workspace.
+# This file follows a common yamllint rule format and is intended
+# to be used by tooling that recognizes .yamllint configs.
+
+extends: default
+rules:
+  line-length:
+    max: 120
+    level: warning
+  indentation:
+    spaces: 2
+  trailing-spaces:
+    level: error
+  document-start:
+    present: true
+  empty-lines:
+    max: 2
+    level: warning
+  comments:
+    require-starting-space: true
+  colons:
+    max-spaces-before: 0
+    max-spaces-after: 1
+  hyphens:
+    max-spaces-after: 1
+  duplicate-keys:
+    level: error
+  truthy:
+    level: warning

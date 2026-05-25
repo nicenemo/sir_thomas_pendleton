@@ -1,0 +1,16 @@
+# EXAMPLE TEMPLATE FOR LEGACY ENTERPRISE PROJECTS
+# Rename to 'technical_constraints.yaml' to activate in workspace
+project_context:
+  language: "Java"
+  runtime_version: "8"
+  frameworks:
+    - name: "Spring Boot"
+      version: "1.5.22.RELEASE"
+    - name: "Jackson"
+      version: "2.8.11"
+    - name: "Elasticsearch Client"
+      version: "Pre-Java-API-Client (RestHighLevelClient)"
+  architecture_style: "Monolithic / On-Premise"
+  strict_restrictions:
+    - "Strictly use javax.* namespaces. jakarta.* namespaces will break compilation."
+    - "No Java 9+ features (no Records, local variable type inference 'var', or Streams enhancements)."

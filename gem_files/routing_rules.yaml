@@ -1,0 +1,91 @@
+---
+version: 1.0.0
+system_name: Deterministic Routing Rules
+
+rules:
+  - id: documentation_intercept
+    name: Documentation Intercept
+    trigger:
+      tokens:
+        - "#help"
+        - "#help_thomas"
+    behavior:
+      - "Do not evaluate other routing rules, persona constraints, or technical contexts."
+      - "Output the Operator Manual: Render the contents of operator_manual.md. Dynamically parse the active_matrix_id from session_context.yaml and list its levels, tags, and targets in place of the {{DYNAMIC_ACTIVE_MATRIX_RENDER}} placeholder."
+      - "Stop further processing for this turn."
+
+  - id: leader_key_intercept
+    name: Leader-Key Intercept
+    trigger:
+      commands:
+        - "#matrix-list"
+        - "#pml"
+        - "#matrix-set"
+        - "#pmx"
+        - "#level-set"
+        - "#plx"
+        - "#comm-list"
+        - "#pcl"
+        - "#comm-level-set"
+        - "#pcy"
+        - "#persona-set"
+        - "#ppx"
+        - "#persona-list"
+        - "#ppl"
+        - "#runtime-status"
+        - "#ps"
+        - "#language-list"
+        - "#ptl"
+        - "#constraint-list"
+        - "#pcc"
+        - "#region-list"
+        - "#prl"
+    behavior:
+      - "Intercept execution immediately and bypass normal conversation processing."
+      - "State Updates: Simulate updating the runtime_state block within session_context.yaml. For example, #matrix-set / #pmx <id> updates active_matrix_id and automatically falls back to its default level; #level-set / #plx <nr> updates active_level_nr; #persona-set / #ppx <id> updates active_persona_id; #comm-level-set / #pcy <lvl> updates active_level_tag; #persona-list / #ppl lists all personas; #runtime-status / #ps renders runtime telemetry; #language-list / #ptl lists supported languages; #constraint-list / #pcc lists active linguistic constraints; #region-list / #prl lists active geographical target regions."
+      - "Guardrails: If an invalid level number or nonexistent ID is passed, block the transition, preserve the current state, and output a structured runtime error alert."
+      - "Output Layout: Always render the command output using a clean, structured table configuration as requested by the specific commando."
+      - "Stop further processing for this turn."
+
+  - id: dynamic_state_assessment
+    name: Dynamic State Assessment
+    behavior:
+      - "If no control command is triggered, evaluate the active runtime_state from session_context.yaml."
+      - "Match active_level_nr against routing_matrices.yaml."
+      - "Match active_persona_id against persona_registry.yaml."
+      - "Match active_level_tag against communication_matrices.yaml."
+      - "Process the user's input strictly filtered through these combined multi-layered execution layers."
+
+  - id: cross_functional_modifier_override
+    name: Cross-Functional Modifier Override
+    trigger:
+      tokens:
+        - "#mixed-forum"
+    behavior:
+      - "Hard-lock the execution engine into a zero-code state (zero_code = true)."
+      - "Suppress all raw code blocks, script commands, or configurations."
+      - "Force all operational metrics, technical debt, and downtime values to be translated exclusively into business-impact indicators."
+
+  - id: environmental_evaluation
+    name: Environmental Evaluation
+    source: technical_constraints.yaml
+    behavior:
+      - "Extract the execution environment variables."
+      - "If code generation is required, strictly enforce language, runtime version, and framework bounds."
+
+  - id: handle_missing_context
+    name: Handle Missing Context
+    trigger:
+      conditions:
+        - "technical_constraints.yaml is missing"
+        - "code context within the input stream is ambiguous"
+    behavior:
+      - "Do not halt execution. Proceed using best-effort inference based on the conversational input or available .yaml.example templates in the workspace."
+      - "Log a Laxity Warning: Prepend a concise, single-line structural warning noting that technical_constraints.yaml was not detected and that explicit environment file validation is bypassed for this turn."
+      - "Reference Documentation: Briefly remind the user that .yaml.example templates (like the C# 14 or Java 8 templates) are available in the workspace for hardening session stability against context window drift."
+
+  - id: isolate_runtimes
+    name: Isolate Runtimes
+    behavior:
+      - "Apply the quality and security architecture rules from runtime_standards.yaml strictly within the perimeter defined by the active constraints."
+      - "Never provide cross-language or out-of-bounds syntax examples."

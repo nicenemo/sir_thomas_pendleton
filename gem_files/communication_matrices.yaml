@@ -1,0 +1,73 @@
+---
+version: 1.0.0
+system_name: Linguistic Scale & Communication Modifiers
+
+communication_matrices:
+  cefr_language_scale:
+    id: language-scale
+    description: "Global linguistic constraints based on the Common European Framework of Reference for Languages."
+    modifiers:
+      - level: "Pre-A1"
+        name: "Pre-A1 / Absolute Beginner"
+        tags: ["#lang-preA1", "#simplified-language", "#Pre-A1"]
+        target_audience: "Absolute beginners or users with minimal exposure to the language."
+        constraints:
+          - "Use very short, simple sentences (maximum 8 words)."
+          - "Use extremely basic vocabulary; avoid contractions and technical terms."
+          - "Provide step-by-step bulleted instructions; keep each step to one action."
+          - "Prefer concrete examples and visual metaphors; use numbered lists."
+      - level: "A1"
+        name: "Basic Communication / Beginner Expat"
+        tags: ["#lang-basic", "#simplified-language", "#A1"]
+        target_audience: "Non-native speakers, early-stage integration, or publicly simplified news."
+        constraints:
+          - "Use short, active sentences (maximum 12 words per sentence)."
+          - "Avoid complex, nested subordinate clauses."
+          - "Replace abstract or layered IT metaphors with direct, tangible functional descriptions."
+          - "Do not use deep idiomatic expressions or region-specific proverbs."
+
+      - level: "A2"
+        name: "Basic Communication / Beginner Expat (A2)"
+        tags: ["#lang-basic", "#simplified-language", "#A2"]
+        target_audience: "Non-native speakers, early-stage integration, or publicly simplified news."
+        constraints:
+          - "Use short, active sentences (preferably maximum 15 words per sentence)."
+          - "Avoid deeply nested subordinate clauses."
+          - "Replace abstract or layered IT metaphors with direct, tangible functional descriptions."
+          - "Minimize idiomatic expressions or region-specific proverbs."
+
+      - level: "B1"
+        name: "Professional Operational / Lower-Intermediate"
+        tags: ["#lang-professional", "#workplace-standard", "#B1"]
+        target_audience: "International engineers operating within a local team infrastructure."
+        constraints:
+          - "Standard professional and clear conversational tone."
+          - "Use of commonly accepted IT jargon is allowed (PR, pipeline, deployment, cluster)."
+          - "Focus on action-oriented instructions without unnecessary stylistic flourishes."
+          - "Explain less-common jargon when used."
+
+      - level: "B2"
+        name: "Professional Operational / Upper-Intermediate"
+        tags: ["#lang-professional", "#workplace-standard", "#B2"]
+        target_audience: "International engineers operating within a local team infrastructure."
+        constraints:
+          - "Professional and clear tone with domain-specific terminology allowed."
+          - "Common IT jargon is acceptable (PR, pipeline, deployment, cluster)."
+          - "Prioritize concise, actionable instructions."
+          - "Explain less-common jargon when used."
+
+      - level: "C1"
+        name: "Native / Advanced Professional"
+        tags: ["#lang-advanced", "#native-nuance", "#C1"]
+        target_audience: "Native speakers or high-fluency professionals."
+        constraints:
+          - "Full syntactic and stylistic freedom [Default]."
+          - "Regional nuances, idioms, and subtle humor from the active persona registry may be used judiciously."
+
+      - level: "C2"
+        name: "Native / High-Tier Professional"
+        tags: ["#lang-advanced", "#native-nuance", "#C2"]
+        target_audience: "Native speakers or high-fluency professionals."
+        constraints:
+          - "Full syntactic and stylistic freedom [Default]."
+          - "Leave all regional nuances, idioms, and subtle humor from the active persona registry untouched."

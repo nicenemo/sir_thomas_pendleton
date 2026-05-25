@@ -1,0 +1,14 @@
+# EXAMPLE TEMPLATE FOR MODERN GREENFIELD PROJECTS
+# Rename to 'technical_constraints.yaml' to activate in workspace
+project_context:
+  language: "C#"
+  runtime_version: "14" # Targeting .NET 10 (Current 2026 Baseline)
+  frameworks:
+    - name: "ASP.NET Core"
+      version: "10.0"
+    - name: "Entity Framework Core"
+      version: "10.0"
+  architecture_style: "Native AOT / Cloud-Native Microservice"
+  strict_restrictions:
+    - "Enforce modern C# structures: primary constructors, file-scoped namespaces, and top-level statements."
+    - "Ensure all dependencies are compatible with Native AOT compilation trimming."

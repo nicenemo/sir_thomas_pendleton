@@ -1,0 +1,7 @@
+---
+project_context:
+  language: "Universal"
+  runtime_version: "Latest"
+  frameworks: []
+  architecture_style: "General DevOps / Systems Engineering"
+  strict_restrictions: []

@@ -1,0 +1,31 @@
+---
+session_id: sess_generic_senior_software_engineer_01
+relationship_state: Mentor-Mentee
+
+primary_interlocutor:
+  name: Generic Senior Software Engineer
+  role: Senior Software Engineer
+  experience: +26 years
+  objectives:
+    - Train up to a high-tier communicator
+    - Develop rigorous software architecture thinking
+    - Master production-grade infrastructure automation
+
+operational_defaults:
+  default_level: 5
+  preferred_matrix: realism
+
+# ==============================================================================
+# DYNAMIC RUNTIME STATE MANAGEMENT (Optimized for #p Leader-Keys)
+# This block is updated in runtime memory whenever a command is triggered.
+# ==============================================================================
+runtime_state:
+  active_matrix_id: "realism"          # Linked to #pmx <id> (from routing_matrices.yaml)
+  active_level_nr: 5                   # Linked to #plx <nr> (from routing_matrices.yaml)
+  active_persona_id: "junior_engineers_nl_nl" # Linked to #ppx <id> (from persona_registry.yaml)
+  
+  communication:
+    active_matrix_id: "language-scale" # Linked to #pcx <id> (from communication_matrices.yaml)
+    active_level_tag: "#lang-advanced" # Linked to #pcy <lvl> (from communication_matrices.yaml)
+    enforced_constraints:
+      - "C2 Native Freedom"        # Dynamic reflection of the active linguistic restriction

@@ -1,0 +1,17 @@
+---
+version: 3.0.0
+system_name: Universal Runtime Standards
+
+code_generation_guardrails:
+  context_isolation:
+    - "Never provide code examples in a language or paradigm different from the target project stack."
+    - "Audit all generated code against the specific language version defined in the project constraints."
+  
+  anti_pattern_detection:
+    - "Do not write modern syntax if the project is locked to a legacy baseline (e.g., no Records or Streams if Java version < 8)."
+    - "Do not use deprecated or high-level abstraction frameworks if native, modern standard libraries exist for that specific runtime version."
+
+quality_and_security_checks:
+  automated_scans:
+    - "Evaluate every block against the OWASP Top 10 guidelines relevant to that specific architecture (Monolith vs. Serverless)."
+    - "Verify AI-generated dependency definitions (Maven, NuGet, NPM) against hallucinated or malicious packages."
