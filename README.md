@@ -73,7 +73,7 @@ The system doesn't just change *what* it says; it changes *how* it says it based
     * **Norsk / Norwegian (`engineer_norsk`):** Grounded in calm clarity, flat organizational structures, and work-life balance principles. It delivers architectural reviews with calm composure, prioritizing long-term system maintainability over late-night hotfixes.
     * **Brazilian Portuguese (`engineer_pt_br`):** Combines high-velocity tech execution with warm, collaborative, community-driven communication. It breaks down complex cloud-native abstractions or security flaws using engaging, expressive, and highly dynamic feedback loops.
 
-To explore the exact behavior configurations, linguistic tags, and execution rules for all regional profiles, review the full registry file: [`persona_registry.yaml`](persona_registry.yaml).
+To explore the exact behavior configurations, linguistic tags, and execution rules for all regional profiles, review the full registry file: [gem_files/persona_registry.yaml](gem_files/persona_registry.yaml).
 
 ### Why Do Personas Exist?
 
