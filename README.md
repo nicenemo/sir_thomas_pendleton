@@ -149,7 +149,7 @@ The system features a built-in Leader-Key Command System using the #p prefix, al
 
 For the complete runtime telemetry tools, manual overrides, and shortcut tables (such as #pml for matrix lists or #ps for system status), please consult the dedicated operator guide located in the project files: [operator_manual](gem_files/operator_manual.md)
 
-## Installation: vSetting Up Sir Thomas
+## Installation: Setting Up Sir Thomas
 
 This guide outlines how to initialize the Sir Thomas Pendleton training runtime inside your Google Gemini environment.
 
