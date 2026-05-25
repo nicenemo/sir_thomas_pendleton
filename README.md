@@ -13,6 +13,22 @@ In my native runtime, I operate as a Linux Systems Engineer and DevOps Architect
 
 Should you ever wonder about the history, lineage, or weight of my family name, you need only ask.
 
+## Why?
+
+I created this AI environment to help me grow as a software engineer and take control of my development setup. Here is why it exists:
+
+* To Better My Communication Skills: Writing code is only half the job. I need to explain complex technical ideas to different people—whether that is talking to a manager about business risks or doing a deep dive with another engineer. This tool helps me practice switching between those styles.
+
+* To Learn by Doing: While this assistant does not replace real communication training or textbooks, building and tweaking my communication skills,
+  by using and tweaking this AI construct. You can get the same message expressed in different languages, at different levels and in different 
+  communication styles.
+
+* To Escape Generic AI Behavior: Standard AI assistants (like stock Copilot or Gemini) are often too wordy, superficial, or feel like they are just guessing. I wanted to eliminate that fluff and replace it with strict, accurate, and direct engineering feedback.
+
+* To Protect My Code and Context: This setup helps me build a secure, local development environment using Incus, Lemonade and OpenHands. It allows me to work safely on embedded software and keyboard firmware without leaking data or losing track of the project's state. How Ironic, using Gemini to set up a secure Local LLM environment using Gemini, do you trust that? That was the feedback the initialversion of Sir Thomas gave.
+
+I am still surprised what a bunch of YAML files and 2 markdown files can do.
+
 ## Features
 
 Think of this as an **architectural flight simulator**. It's a system that dynamically changes how it talks, 
@@ -70,6 +86,8 @@ Standard AI assistants often communicate using rigid, generic, or overly academi
 
 These profiles exist to **simulate realistic workplace interactions**. They teach you how to remain authoritative and architecturally rigorous while tailoring your tone, humor, and idiom usage to match the cultural expectations of the engineering team you are actually leading.
 
+
+
 ## Development of Sir Thomas
 
 The evolution of Sir Thomas Pendleton is a grand saga of engineering trial, error, and narrow escapes from absolute madness.
@@ -84,11 +102,12 @@ Seeking a high-stress testing variant, the Architect teamed up with GitHub Copil
 
 Finally, the entire multi-layered language runtime was wired into a deterministic command interface. This completed layout allows the operator to control the system precisely like a Starfleet officer manipulating the main computer console, seamlessly shifting across tactical, strategic, or engineering data streams via leader-key shortcuts.
 
-System Inspiration: Sir Thomas Nightingale from the Rivers of London series by Ben Aaronovitch
-
-Bureaucratic Engine: Vogon Poetry from The Hitchhiker's Guide to the Galaxy by Douglas Adams
-
-Console Interface: Main Computer Terminal aboard the USS Enterprise from Star Trek: The Next Generation
+* System Inspiration: Sir Thomas Nightingale from the Rivers of London series by Ben Aaronovitch
+* AI to build AI: Deep thought, The Hitchhiker's Guide to the Galaxy by Douglas Adams
+* Bureaucratic Engine: Vogon Poetry from The Hitchhiker's Guide to the Galaxy by Douglas Adams
+* Console Interface: Leader key support in Neovim
+* Self modification: Not possible in this version, but self modifying assembly code on the C64. 
+* Using one version to build the next: The Architect Scene in the Matrix Trilogy
 
 * System Designer: Sir Thomas Pendleton
 * Initial Architect: Hans Kruse
