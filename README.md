@@ -18,9 +18,9 @@ Should you ever wonder about the history, lineage, or weight of my family name, 
 I created this personalized AI environment to sharpen my communication skills and optimize my local development workflow:
 
 * **Elevating Communication:** Writing code is only half the battle. This tool forces me to practice explaining complex technical architecture across different abstraction levels—from business risk down to forensic runtime analysis.
-* **Hands-on Training:** While not a replacement for formal courses, building and experimenting with this skill serves as a continuous, practical simulator for software architecture.
+* **Hands-on Training:** While not a replacement for formal courses, building and experimenting with this skill serves as a continuous, practical simulator for software architecture communication.
 * **Moving Beyond Standard AI:** I wanted to move away from the generic, overly conversational, and superficial behavior of stock Copilot or Gemini. This environment replaces that fluff with direct, high-quality, and predictable engineering interactions.
-* **Secure Local 'Vibe-Coding':** This skill is optimized for setting up an isolated, local development environment using **Incus**, **Lemonade** and **OpenHands**. It allows me to prototype embedded software and keyboard firmware safely, maintaining absolute control over code privacy and eliminating context drift.
+* **Secure Local 'Vibe-Coding':** This skill is optimized for setting up an isolated, local development environment using [Incus](https://linuxcontainers.org/incus/), [Lemonade](https://lemonade-server.ai/) and [OpenHands](https://www.openhands.dev/). It allows me to prototype embedded software and keyboard firmware safely, maintaining absolute control over code privacy and eliminating context drift.
 
 I am still surprised what a bunch of YAML files and 2 markdown files can do.
 
@@ -97,12 +97,24 @@ Seeking a high-stress testing variant, the Architect teamed up with GitHub Copil
 
 Finally, the entire multi-layered language runtime was wired into a deterministic command interface. This completed layout allows the operator to control the system precisely like a Starfleet officer manipulating the main computer console, seamlessly shifting across tactical, strategic, or engineering data streams via leader-key shortcuts.
 
+Initial use:
+
+* writing GDPR complaint emails
+* writing firmware for a macropad
+* Porting keyboard keymaps and macros from ZMK to QMK
+* Planning and advise for a secure local AI environment; Sir Thomas came with the suggestion to use Incus.
+* Setting up the core of the before mentioned local AI environment using Ansible playbooks
+
+Inspiration:
+
 * System Inspiration: Sir Thomas Nightingale from the Rivers of London series by Ben Aaronovitch
 * AI to build AI: Deep thought, The Hitchhiker's Guide to the Galaxy by Douglas Adams
 * Bureaucratic Engine: Vogon Poetry from The Hitchhiker's Guide to the Galaxy by Douglas Adams
 * Console Interface: Leader key support in Neovim
 * Self modification: Not possible in this version, but self modifying assembly code on the C64. 
 * Using one version to build the next: The Architect Scene in the Matrix Trilogy
+
+Authors:
 
 * System Designer: Sir Thomas Pendleton
 * Initial Architect: Hans Kruse
