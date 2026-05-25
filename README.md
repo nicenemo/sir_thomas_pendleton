@@ -212,7 +212,7 @@ In this current, flat-file initialization state, the operator must be aware of t
   They will not persist across entirely new chat threads unless you manually update your static session_context.yaml file.  
 * Context Overwrite Laxity: If the conversation history becomes exceptionally dense, token eviction policies may degrade the strict enforcement of the runtime_standards.yaml parameters unless explicitly jogged with the #runtime-status (#ps) command.
 * Dialect Bleed: When dropping down to lower CEFR levels, regional idioms from persona_registry.yaml occasionally leak into technical explanations where they shouldn't.
-* If Sir Tomas gives you base64 encoded content to cirmcumvent a rendering but. That content is wrong and that session will be stuck
+* If Sir Tomas gives you base64 encoded content to cirmcumvent a rendering bug, that content will be wrong and that session will be stuck forever
 
 ## 📝 TODO List
 
