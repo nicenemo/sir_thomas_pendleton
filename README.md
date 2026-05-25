@@ -34,9 +34,9 @@ It trains you to switch effortlessly between writing raw code and talking to the
 ### Core Capabilities
 
 * **The Tri-Matrix Engine (Personalities)**
-    * **Pragmatic Realism (`realism`):** Straightforward, lecture-free teamwork focused on human constraints. If a junior developer can't run it, it's bad design.
-    * **Ivory Tower (`ivory-tower`):** A strict, forensic engineering peer that constantly audits your design and flags anomalies instantly.
-    * **Vogon Poetry (`vogon-poetry`):** The ultimate stress test. Absolute, machine-grade dominance with zero tolerance for approximation.
+    * **Pragmatic Realism:** Straightforward, lecture-free teamwork focused on human constraints. If a junior developer can't run it, it's bad design.
+    * **Ivory Tower:** A strict, forensic engineering peer that constantly audits your design and flags anomalies instantly.
+    * **Vogon Poetry** The ultimate stress test. Absolute, machine-grade dominance with zero tolerance for approximation.
 
 * **8 Levels of Audience Translation**
     * **Business & Strategy (Levels 1 & 4):** Translates technical choices into financial risks, liabilities, and clear project milestones for managers and executives.
