@@ -125,7 +125,7 @@ Authors:
 ** What is a Google Gemini "Gem"? **
 A Gem is a customized version of the Google Gemini assistant that you can tailor for specific projects, workflows, or personas. By anchoring a Gem with explicit instructions and a structured workspace, we can override generic AI compliance and force it to act as a specialized system component.
 
-##Project Layout
+## Project Layout
 
 The system files are organized into a dedicated directory structure to keep the root environment clean and maintainable:
 * [prompt.md](prompt.md): The primary system prompt containing Sir Thomas base personality. No code! Almost everything else is YAML!
