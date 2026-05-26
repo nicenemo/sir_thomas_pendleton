@@ -19,7 +19,7 @@ Finally, the entire multi-layered language runtime was wired into a deterministi
 The system's persona, architecture, and control mechanics are heavily inspired by a mix of literature, cinema, and legacy computing constraints:
 
 * **System Inspiration:** Sir Thomas Nightingale from the *Rivers of London* series by Ben Aaronovitch.
-* **AI to build AI:** Deep Thought from *The Hitchhiker's Guide to the Galaxy* by Douglas Adams.
+* **AI to build AI:** Deep Thought from *The Hitchhiker's Guide to the Galaxy* by Douglas Adams. Also the Architect scene in the Matrix Reloaded (2003) movie.
 * **Bureaucratic Engine:** Vogon Poetry from *The Hitchhiker's Guide to the Galaxy* by Douglas Adams.
 * **Console Interface:** Leader key support in the Neovim text editor.
 * **Self-Modification:** Not strictly possible in this LLM version, but conceptually inspired by self-modifying assembly code on the Commodore 64.
