@@ -58,7 +58,7 @@ To understand how the routing matrices intersect or how to install the engine in
 * [History and Inspiration](docs/history_and_inspiration) - The lore and systems engineering lineage.
 
 
-## E💻 Example Usage: The Leader-Key System
+## 💻 Example Usage: The Leader-Key System
 Instead of arguing with the AI, you control Thomas using deterministic #p leader-key commands (inspired by Neovim).
 
 **Operator Input:**
