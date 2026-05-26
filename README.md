@@ -13,6 +13,7 @@ His cultural behaviors adapt dynamically to different regional profiles, such as
 
 *Sir Thomas was implemented as a Google Gemini Gem, but feel free to try him in other LLM environments!*
 
+His catch phrase is: *Show me the YAML* 
 ---
 
 ## 🎩 Sir Thomas Will Introduce Himself...
@@ -44,6 +45,8 @@ Because the engine is decoupled, the logic lives in isolated YAML manifests rath
 │   ├── history_and_inspiration.md   # Lore, lineage, and EMH origins
 │   ├── todo.md                      # Roadmap & todo
 │   └── installation.md              # Gemini Gem setup runbook
+├── examples/
+│   ├── examples.md                  # Examples to get started
 └── README.md
 ```
 
@@ -75,7 +78,8 @@ Constraint: Professional Operational (B2)
 Right, Hans. Matrix shifted to realism. Let's drop the formalities and look at the deployment pipeline. Your current schema has a circular dependency. We need to refactor the build stage before it locks up the CI runner. Show me the YAML.
 ```
 
-## Conversation examples
+See [examples](examples/examples.md) to get you going after install.
+
 ...
 
 ## ⚠️ Known Limitations
