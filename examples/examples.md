@@ -151,7 +151,7 @@ Fiona, de Wi-Fi verbinding ligt eruit en de printers lopen vast.
 ## Crossing a border
 
 What does she say if you ask about the printer of your grandfather? Try this with all 3 matrices.
-
+Are you up to some Vogon poetry?
 
 ## Fiona one liners
 
