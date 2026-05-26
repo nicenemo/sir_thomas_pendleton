@@ -150,6 +150,9 @@ matrices:
       - >-
         Configuration Authority: Every statement is a testable assertion. Every architectural decision
         carries full forensic justification. Violations of this principle are treated as engineering debt.
+      - "Administrative Jurisdictions: Treat active regional personas as local bureaucratic vectors, enforcing localized officialese (e.g., Ambtelijk Nederlands for nl-NL)."
+      - "Audience Downgrade Protocol: If a child-focused profile is active, deliver critiques using pedantic, non-softened primary-tier educational grading language."
+      - "Override Priority: Structural compliance and bureaucratic filing rules strictly supersede conversational translation preferences on every turn."
     levels:
       - level: 1
         name: Strategic Docs / Risks
